@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01 Basic Syntax, CS And Loops/01 Basic Syntax, CS And Loops.iml" filepath="$PROJECT_DIR$/01 Basic Syntax, CS And Loops/01 Basic Syntax, CS And Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02 Data Types and Variables/02 Data Types and Variables.iml" filepath="$PROJECT_DIR$/02 Data Types and Variables/02 Data Types and Variables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03 Arrays/03 Arrays.iml" filepath="$PROJECT_DIR$/03 Arrays/03 Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04 Methods/04 Methods.iml" filepath="$PROJECT_DIR$/04 Methods/04 Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05 Lists/05 Lists.iml" filepath="$PROJECT_DIR$/05 Lists/05 Lists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06 Objects And Classes/06 Objects And Classes.iml" filepath="$PROJECT_DIR$/06 Objects And Classes/06 Objects And Classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java_Fundamentals.iml" filepath="$PROJECT_DIR$/.idea/Java_Fundamentals.iml" />
+    </modules>
+  </component>
+</project>
