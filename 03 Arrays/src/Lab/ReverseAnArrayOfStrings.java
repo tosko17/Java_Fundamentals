@@ -7,15 +7,13 @@ public class ReverseAnArrayOfStrings {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        String str = scan.nextLine();
-        String[] items = str.split(" ");
-        int[] arr = new int[items.length];
+        String[] str = scan.nextLine().split(" ");
 
 
-        for (int i = 0; i<items.length; i++) {
-         //   arr[i] = char(Integer.parseInt(items[i]=);
+        for (int i = str.length - 1; i >= 0; i--) {
+            System.out.print(str[i] + " ");
+
         }
 
-        System.out.println(Arrays.toString(arr));
     }
 }

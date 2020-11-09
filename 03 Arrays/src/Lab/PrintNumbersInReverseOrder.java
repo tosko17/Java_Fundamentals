@@ -1,4 +1,4 @@
-package arrays.Lab;
+package Lab;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class PrintNumbersInReverseOrder {
 
         int[] numbers = new int[n];
 
-        for (int i = 0; i < numbers.length; i++) {
+        for (int i = 0; i < n; i++) {
             int number = Integer.parseInt(scan.nextLine());
             numbers[i] = number;
         }
