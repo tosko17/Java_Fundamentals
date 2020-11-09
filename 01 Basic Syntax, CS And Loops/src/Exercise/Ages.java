@@ -1,4 +1,4 @@
-package basic.syntax.conStatementsAndLoops.Excercise;
+package Exercise;
 
 import java.util.Scanner;
 
