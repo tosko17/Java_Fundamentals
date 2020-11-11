@@ -10,12 +10,12 @@ public class MathOperations {
         String operator = scan.nextLine();
         int b = Integer.parseInt(scan.nextLine());
 
-        System.out.printf("%.2f", calculate(a, operator, b));
+        System.out.printf("%d", calculate(a, operator, b));
 
     }
 
-    private static double calculate(int a, String operator, int b) {
-        double result = 0.0;
+    private static int calculate(int a, String operator, int b) {
+        int result = 0;
 
         switch (operator) {
             case "+":
@@ -28,7 +28,7 @@ public class MathOperations {
                 result = a * b;
                 break;
             case "/":
-                result = a * 1.0 / b;
+                result = a / b;
                 break;
         }
 
