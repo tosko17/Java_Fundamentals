@@ -1,4 +1,4 @@
-package methods.Exercises;
+package Exercise;
 
 import java.util.Scanner;
 
@@ -12,19 +12,6 @@ public class MiddleCharacters {
     }
 
     private static void middleCharacters(String something){
-        int start = 0;
-        char symbol = ' ';
-        for (int i = 1; i <=something.length() ; i++) {
-            symbol = something.charAt(i);
-
-        }
-
-        if (something.length() % 2 ==0 ){
-            start = something.length() / 2 ;
-            System.out.println();
-        }else {
-            start = something.length() /2 + 1;
-            System.out.println();
-        }
+       // char[] ne = something.toCharArray()[];
     }
 }
