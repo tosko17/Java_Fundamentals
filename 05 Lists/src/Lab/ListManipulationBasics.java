@@ -1,15 +1,16 @@
 package Lab;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class ListManipulationBasics {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        List<Integer> numbers = Arrays.stream(scan.nextLine().split(" "))
-                .map(Integer::parseInt).collect(Collectors.toList());
+        List<Integer> numbers =
+                Arrays.stream(scan.nextLine()
+                        .split(" "))
+                        .map(Integer::parseInt)
+                        .collect(Collectors.toList());
         while (true) {
             String line = scan.nextLine();
 
@@ -24,9 +25,12 @@ public class ListManipulationBasics {
                     numbers.add(numberToAdd);
                     break;
                 case "Remove":
-                case "RemoveAt":
                     int numberToRemove = Integer.parseInt(tokens[1]);
                     numbers.remove(numberToRemove);
+                    break;
+                case "RemoveAt":
+                    int indexToRemove = Integer.parseInt(tokens[1]);
+                    numbers.remove(indexToRemove);
                     break;
                 case "Insert":
                     int numberToInsert = Integer.parseInt(tokens[1]);

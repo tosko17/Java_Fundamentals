@@ -5,6 +5,10 @@ import java.util.List;
 import java.util.Scanner;
 
 public class LiveDemo1 {
+    class Reservation {
+        
+    }
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
