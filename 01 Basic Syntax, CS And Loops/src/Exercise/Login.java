@@ -12,8 +12,8 @@ public class Login {
 
         int counter = 0;
 
-        for (int i = 0; i < username.length(); i++) {
-            reserved = username.charAt(i) + reserved;
+        for (int i = 0; i < username.length(); i++) { //
+            reserved = username.charAt(i) + reserved ;
 
         }
 

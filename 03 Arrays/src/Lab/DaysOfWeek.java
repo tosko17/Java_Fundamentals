@@ -1,4 +1,4 @@
-package arrays.Lab;
+package Lab;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class DaysOfWeek {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        String[] days = {"Monday", "Tuesday", "Wednesday",
+         String[] days = {"Monday", "Tuesday", "Wednesday",
                 "Thursday", "Friday", "Saturday", "Sunday"};
 
         int day = Integer.parseInt(scan.nextLine());

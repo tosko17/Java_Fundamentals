@@ -5,11 +5,16 @@ import java.util.List;
 import java.util.Scanner;
 
 public class LiveDemo1 {
-    class Reservation {
-        
+    static class Reservation {
+        String holderName;
+        int seats;
     }
 
     public static void main(String[] args) {
+
+        Reservation first = new Reservation();
+        first.holderName = "Todor";
+        first.seats = 5;
         Scanner scan = new Scanner(System.in);
 
         List<String> reservationHolders = new ArrayList<>();

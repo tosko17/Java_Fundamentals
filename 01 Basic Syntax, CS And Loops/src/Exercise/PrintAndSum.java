@@ -11,11 +11,14 @@ public class PrintAndSum {
 
         int total = 0;
 
+
         for (int i = num1; i <= num2; i++) {
             System.out.printf("%d ", i);
             total += i;
         }
         System.out.println();
         System.out.printf("Sum: %d", total);
+
+
     }
 }
